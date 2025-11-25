@@ -60,5 +60,21 @@ Furthermore, I added some sliders for each branch that allows the user to decide
 
 <img width="1000" height="738" alt="Screenshot 2025-11-12 at 9 14 06 PM" src="https://github.com/user-attachments/assets/d0a4fa4a-0d43-4684-8ae9-d98ca521dce1" />
 
- 
+### Milestone 2
+The progress on my goals:
+- I have created strawberries that are easily customizable in shape and size:
+<img height="300" alt="Screenshot 2025-11-24 at 11 59 39 PM" src="https://github.com/user-attachments/assets/9832e84a-e1f5-42cf-937c-823d8e9da806" />
+<img height="300" alt="Screenshot 2025-11-24 at 11 59 50 PM" src="https://github.com/user-attachments/assets/fc9ee0a1-de55-40c5-a255-03a114257853" />
+<img  height="300" alt="Screenshot 2025-11-24 at 11 59 54 PM" src="https://github.com/user-attachments/assets/f36a417a-8ed1-4301-8d55-1880d55a547d" />
+
+  
+- And created strawberry flowers where the user can toggle if a flower is fully bloomed and if it is only in its bud stage
+<img height="400" alt="Screenshot 2025-11-24 at 11 59 14 PM" src="https://github.com/user-attachments/assets/0915615a-e6be-4846-83a6-447900c7745f" />
+<img height="400" alt="Screenshot 2025-11-24 at 11 59 21 PM" src="https://github.com/user-attachments/assets/f0cd8089-3547-4eb3-bb94-e424d3b15f6b" />
+<img height="400" alt="Screenshot 2025-11-24 at 11 59 26 PM" src="https://github.com/user-attachments/assets/75e12d23-a8dd-40a7-a7c6-1e192d101203" />
+
+I still need to create the leaves of the strawberry (at this point, this should be a pretty straightforward task from practicing making flowers and strawberries), adn of course, the stems.
+
+In terms of cutting out certain features of my project, I plan on focusing less heavily on making the strawberry plants botanically realistic and focus more on getting the stems done and to finish attaching the leaves via L-systems. I also plan on only having a "bushiness" slider to vary up the strawberry plant, since the goal of this project is to be able to generate many strawberry plants at once, and the "bushiness" of a strawberry plant is the main macroscopic feature needed for strawberry plant variation.
+
  
