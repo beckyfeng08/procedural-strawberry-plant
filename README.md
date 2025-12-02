@@ -77,4 +77,38 @@ I still need to create the leaves of the strawberry (at this point, this should 
 
 In terms of cutting out certain features of my project, I plan on focusing less heavily on making the strawberry plants botanically realistic and focus more on getting the stems done and to finish attaching the leaves via L-systems. I also plan on only having a "bushiness" slider to vary up the strawberry plant, since the goal of this project is to be able to generate many strawberry plants at once, and the "bushiness" of a strawberry plant is the main macroscopic feature needed for strawberry plant variation.
 
- 
+### Final Submission
+
+The Houdini files can be downloaded here:
+https://drive.google.com/drive/folders/10e0fsh1068Qv1wMEVW3PbDMGlbQIp9OO?usp=sharing
+
+#### The Strawberry Plant
+Here are the final results of the generated strawberry plants:
+<img height="400" alt="0_553" src="https://github.com/user-attachments/assets/dd9f8702-9600-46c6-bb5c-d2f8bc371d99" />
+<img height="400" alt="1" src="https://github.com/user-attachments/assets/23fe9015-d16a-44c3-9d4d-10664b7abc96" />
+<img  height="400" alt="0_767" src="https://github.com/user-attachments/assets/0f333059-16c3-48d0-abdb-20f9f265d223" />
+<img height="400" alt="0_263" src="https://github.com/user-attachments/assets/7db93b65-ae0a-4e2e-8d54-d1b00d3c7c6c" />
+
+In order to vary each strawberry plant, there is a "bountifulness" slider (0 yielding no strawberry plant and 1 yielding a very bushy strawberry plant), and a randomize slider which feeds a integer seed into the strawberry generator to create strawberries varying in shape. From first image to last, the following "bountifulness" parameters were used: 0.533, 1, 0.767, 0.263
+
+In order to make this strawberry plant, I modeled the leaves, the flowers, and the strawberries procedurally, giving room for me to vary up the shape and size of each part. I then exported out 5 geometry instances of flowers and strawberries to use for the strawberry generator. There are 10 geometry instances for the leaves.
+
+#### The Strawberry
+The strawberry's shape was created by following this tutorial: https://www.youtube.com/watch?v=o2lqjgt4RwU&t=1733s
+<img height="500" alt="strawb00004" src="https://github.com/user-attachments/assets/3699b558-4ab0-4e8a-af1e-87c8120e5055" />
+<img height="500" alt="strawb00003" src="https://github.com/user-attachments/assets/a41c60ba-2a43-4895-8547-6770e9e3b533" />
+<img height="500" alt="strawb00002" src="https://github.com/user-attachments/assets/65185d6c-7052-41b7-808e-9a7a03d7df53" />
+<img height="500" alt="strawb00001" src="https://github.com/user-attachments/assets/757e8718-5b39-408f-bbb2-8329ab00da55" />
+
+The shape of the strawberry can be varied using a manually created slider, which is connected to a "mountain" node that adds noise to the shape of the strawberry.
+
+#### The Flowers
+The flower was created by taking inspiration from this playlist: https://www.youtube.com/playlist?list=PLOGJpcoBCf0MhmgDJKTY9SMJJDWrhYLIu
+
+https://github.com/user-attachments/assets/71cdb06c-aefc-48d3-88bd-764dfeea09fe
+
+We create a rig for each petal and leaf belonging to the flower in order to get the petal to open and uncurl.
+
+#### The Leaves
+The leaves were modeled with L systems.
+
