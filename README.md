@@ -84,6 +84,7 @@ https://drive.google.com/drive/folders/10e0fsh1068Qv1wMEVW3PbDMGlbQIp9OO?usp=sha
 
 #### The Strawberry Plant
 Here are the final results of the generated strawberry plants:
+
 <img height="400" alt="0_553" src="https://github.com/user-attachments/assets/dd9f8702-9600-46c6-bb5c-d2f8bc371d99" />
 <img height="400" alt="1" src="https://github.com/user-attachments/assets/23fe9015-d16a-44c3-9d4d-10664b7abc96" />
 <img  height="400" alt="0_767" src="https://github.com/user-attachments/assets/0f333059-16c3-48d0-abdb-20f9f265d223" />
@@ -95,10 +96,11 @@ In order to make this strawberry plant, I modeled the leaves, the flowers, and t
 
 #### The Strawberry
 The strawberry's shape was created by following this tutorial: https://www.youtube.com/watch?v=o2lqjgt4RwU&t=1733s
-<img height="500" alt="strawb00004" src="https://github.com/user-attachments/assets/3699b558-4ab0-4e8a-af1e-87c8120e5055" />
-<img height="500" alt="strawb00003" src="https://github.com/user-attachments/assets/a41c60ba-2a43-4895-8547-6770e9e3b533" />
-<img height="500" alt="strawb00002" src="https://github.com/user-attachments/assets/65185d6c-7052-41b7-808e-9a7a03d7df53" />
-<img height="500" alt="strawb00001" src="https://github.com/user-attachments/assets/757e8718-5b39-408f-bbb2-8329ab00da55" />
+
+<img height="400" alt="strawb00004" src="https://github.com/user-attachments/assets/3699b558-4ab0-4e8a-af1e-87c8120e5055" />
+<img height="400" alt="strawb00003" src="https://github.com/user-attachments/assets/a41c60ba-2a43-4895-8547-6770e9e3b533" />
+<img height="400" alt="strawb00002" src="https://github.com/user-attachments/assets/65185d6c-7052-41b7-808e-9a7a03d7df53" />
+<img height="400" alt="strawb00001" src="https://github.com/user-attachments/assets/757e8718-5b39-408f-bbb2-8329ab00da55" />
 
 The shape of the strawberry can be varied using a manually created slider, which is connected to a "mountain" node that adds noise to the shape of the strawberry.
 
@@ -112,8 +114,8 @@ We create a rig for each petal and leaf belonging to the flower in order to get 
 #### The Leaves
 The leaves were modeled with L systems. You can vary up the skinniness of the leaf, have it bend side to side, twist it along its stem, or bend backwards.
 
-<img height="500" alt="leaf1" src="https://github.com/user-attachments/assets/2d98d6e6-badd-40fa-99fb-26f06d661429" />
-<img height="500" alt="leaf2" src="https://github.com/user-attachments/assets/edbcec64-0c9f-4f61-9730-32e4db45ba60" />
+<img height="400" alt="leaf1" src="https://github.com/user-attachments/assets/2d98d6e6-badd-40fa-99fb-26f06d661429" />
+<img height="400" alt="leaf2" src="https://github.com/user-attachments/assets/edbcec64-0c9f-4f61-9730-32e4db45ba60" />
 
 ### Reflection
 Overall, this project was a great way for me to become a better Houdini user and become more familiar with main workflows and its interface. Instead of my original goal having all these different parameters to vary a strawberry bush like number of strawberries, number of leaves, I ended up making a "bushiness" parameter which simplified what a strawberry plant should look like on a macroscopic level, and then another parameter to randomize the overall shape of the bush. There are several improvements to be made including avoiding geometry clipping into each other, better formulation of L systems, and improving aesthetics, of course. There were also other things that I wanted to tweak - such as copying multiple instances of unbaked geometries to points - that I couldn't implement due to computational costs. All in all, I walked away from this project feeling like I have a good grasp of Houdini, which I want to keep using and learning after this class. 
