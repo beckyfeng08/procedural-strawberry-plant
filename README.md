@@ -110,5 +110,10 @@ https://github.com/user-attachments/assets/71cdb06c-aefc-48d3-88bd-764dfeea09fe
 We create a rig for each petal and leaf belonging to the flower in order to get the petal to open and uncurl.
 
 #### The Leaves
-The leaves were modeled with L systems.
+The leaves were modeled with L systems. You can vary up the skinniness of the leaf, have it bend side to side, twist it along its stem, or bend backwards.
 
+<img height="500" alt="leaf1" src="https://github.com/user-attachments/assets/2d98d6e6-badd-40fa-99fb-26f06d661429" />
+<img height="500" alt="leaf2" src="https://github.com/user-attachments/assets/edbcec64-0c9f-4f61-9730-32e4db45ba60" />
+
+### Reflection
+Overall, this project was a great way for me to become a better Houdini user and become more familiar with main workflows and its interface. Instead of my original goal having all these different parameters to vary a strawberry bush like number of strawberries, number of leaves, I ended up making a "bushiness" parameter which simplified what a strawberry plant should look like on a macroscopic level, and then another parameter to randomize the overall shape of the bush. There are several improvements to be made including avoiding geometry clipping into each other, better formulation of L systems, and improving aesthetics, of course. There were also other things that I wanted to tweak - such as copying multiple instances of unbaked geometries to points - that I couldn't implement due to computational costs. All in all, I walked away from this project feeling like I have a good grasp of Houdini, which I want to keep using and learning after this class. 
